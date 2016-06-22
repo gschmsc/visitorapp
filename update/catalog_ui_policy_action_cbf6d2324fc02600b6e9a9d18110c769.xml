@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Visitor">1735527e4f802600b6e9a9d18110c7fa</catalog_item>
+        <catalog_variable>IO:7735d2be4f802600b6e9a9d18110c708</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>georg.schmid</sys_created_by>
+        <sys_created_on>2016-06-20 09:54:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cbf6d2324fc02600b6e9a9d18110c769</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>car_plate</sys_name>
+        <sys_package display_value="VisitorFromScratch" source="x_34646_visitorfro">df9f02ba4f802600b6e9a9d18110c708</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="VisitorFromScratch">df9f02ba4f802600b6e9a9d18110c708</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_cbf6d2324fc02600b6e9a9d18110c769</sys_update_name>
+        <sys_updated_by>georg.schmid</sys_updated_by>
+        <sys_updated_on>2016-06-20 09:54:43</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Car Plate if no Car Parking">7ec652324fc02600b6e9a9d18110c729</ui_policy>
+        <variable>car_plate</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

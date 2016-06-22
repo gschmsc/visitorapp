@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Visitors" max_length="40" name="x_34646_visitorfro_visitors" type="collection">
+        <element label="Arrival" max_length="40" name="arrival" type="glide_date_time"/>
+        <element label="Car Parking" max_length="40" name="car_parking" type="boolean"/>
+        <element label="Car Plate" max_length="255" name="car_plate" type="string_full_utf8"/>
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Contact" max_length="32" name="contact" reference="sys_user" type="reference"/>
+        <element label="First Name" max_length="40" name="first_name" type="string_full_utf8"/>
+        <element display="true" label="Last Name" max_length="40" name="last_name" type="string_full_utf8"/>
+        <element label="Left" max_length="40" name="left" type="glide_date_time"/>
+        <element choice="1" label="Reason" max_length="40" name="u_reason" type="choice">
+            <choice>
+                <element label="Meeting" value="Meeting"/>
+                <element label="Personal" value="Personal"/>
+                <element label="Personal Delivery" value="Personal Delivery"/>
+                <element label="Pickup" value="Pickup"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="contact"/>
+        </index>
+        <index name="index2">
+            <element name="company"/>
+        </index>
+    </element>
+</database>
